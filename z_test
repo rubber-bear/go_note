@@ -1,0 +1,5 @@
+1. package main 的作用
+    package main 是一个特殊的包，在它的内部还要定义一个main主函数作为程序入口，在对程序编译的时候由于package main和main函数的存早他会生成一个可执行的文件
+
+2. var v2, v3 = 11, 12
+    v2, v3 := 11, 12

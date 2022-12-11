@@ -11,5 +11,6 @@ func main() {
 	//api.Google()
 	//Output()
 	// DataType()
-	Variable()
+	// Variable()
+	Constant()
 }
