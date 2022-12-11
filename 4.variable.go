@@ -15,6 +15,15 @@ import "fmt"
         var name string
 		// 变量赋值
 		name= "hy"
+
+		var (
+			name = "sz"
+			age = 19
+			salary = 400
+			hobby = "jpm"
+		)
+
+
 变量 => 存储数据 、 存储用户输入的值
 
 变量名要求
@@ -49,8 +58,25 @@ func Variable() {
 	//var name string
 	//fmt.Scanf("%s", &name)
 	//fmt.Println(name)
+	//
+	//var sm = "han"
+	//fmt.Println(sm)
 
-	var sm = "han"
-	fmt.Println(sm)
+	//var name, title, msg string
+	//name = "st"
+	//title = "st2"
+	//msg = "st3"
+	//fmt.Println(name, title, msg)
 
+	var (
+		name    = "sz"
+		age     = 19
+		salary  = 400
+		hobby   = "jpm"
+		balance int    // 只声明但是不赋值，默认值 0
+		gender  string // 只声明但是不赋值，又一个默认值 ""
+		play    bool   // 只声明但是不赋值，又一个默认值 false
+	)
+
+	fmt.Println(name, age, salary, hobby, balance, gender, play)
 }
