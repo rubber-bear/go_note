@@ -45,10 +45,20 @@ import "fmt"
 	局部有效的变量（编写在 {} 中的变量） -》 局部变量
 
 
+赋值&内存相关
+
+	name := "wang"
+	nickname := name   // 变量并不是指向 name 所在的内存地址， 而是拷贝一份，创建新的内存
+	name = "cx" // 会将name所指内存的变量进行修改
+
+注意事项：
+	使用int/string/bool这三种数据类型 【值类型】时，如果遇到变量的赋值会拷贝一份
+
+
 */
 // 全局变量不能简写
 // movie := "海贼王"   // 不可以
-var movie string = "海贼王"
+// var movie string = "海贼王"
 
 //var movie = "海贼王"
 
@@ -102,6 +112,16 @@ func Variable() {
 	//}
 	//fmt.Println(name)
 	// fmt.Println(age)
-	fmt.Println(movie)
+	//fmt.Println(movie)
+
+	nm := "wang"
+	newName := nm
+
+	fmt.Println(nm, &nm)           // wang 0x14000188050
+	fmt.Println(newName, &newName) // wang 0x14000188060
+
+	nm = "cx"
+	fmt.Println(nm, &nm)           // cx 0x14000188050
+	fmt.Println(newName, &newName) // wang 0x14000188060
 
 }
