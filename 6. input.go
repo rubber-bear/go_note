@@ -46,7 +46,8 @@ func Input() {
 	*/
 
 	var name string
+	var age int
 	fmt.Println("请输入")
-	fmt.Scanf("我叫%s", &name)
-	fmt.Println(name)
+	_, _ = fmt.Scanf("我叫%s 今年%d 岁", &name, &age)
+	fmt.Println(name, age)
 }
