@@ -12,5 +12,6 @@ func main() {
 	//Output()
 	// DataType()
 	// Variable()
-	Constant()
+	// Constant()
+	Input()
 }
