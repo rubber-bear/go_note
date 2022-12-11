@@ -33,10 +33,24 @@ import "fmt"
 			else、goto、package、switch、const、fallthrough、if、range、type、continue、for、
 			import、return、var）
 
+
+变量的作用域
+	大括号中定义的变量，不能被上级调用  =》 变量的作用域就是大括号内
+	大括号内可以使用上一级的变量，当前作用域（大括号），变量会先在当前作用域查找，如果没有会向上找
+
+	变量所在的第一集大阔号内
+
 全局变量和局部变量
+	定义在全局的变量 （未写在函数中的变量） =》 全局变量
+	局部有效的变量（编写在 {} 中的变量） -》 局部变量
 
 
 */
+// 全局变量不能简写
+// movie := "海贼王"   // 不可以
+var movie string = "海贼王"
+
+//var movie = "海贼王"
 
 func Variable() {
 	//var sb string = "hy"
@@ -68,15 +82,26 @@ func Variable() {
 	//msg = "st3"
 	//fmt.Println(name, title, msg)
 
-	var (
-		name    = "sz"
-		age     = 19
-		salary  = 400
-		hobby   = "jpm"
-		balance int    // 只声明但是不赋值，默认值 0
-		gender  string // 只声明但是不赋值，又一个默认值 ""
-		play    bool   // 只声明但是不赋值，又一个默认值 false
-	)
+	//var (
+	//	name    = "sz"
+	//	age     = 19
+	//	salary  = 400
+	//	hobby   = "jpm"
+	//	balance int    // 只声明但是不赋值，默认值 0
+	//	gender  string // 只声明但是不赋值，又一个默认值 ""
+	//	play    bool   // 只声明但是不赋值，又一个默认值 false
+	//)
+	//
+	//fmt.Println(name, age, salary, hobby, balance, gender, play)
 
-	fmt.Println(name, age, salary, hobby, balance, gender, play)
+	//name := "wang"
+	//fmt.Println(name)
+	//if true {
+	//	age := 18
+	//	fmt.Println(age)
+	//}
+	//fmt.Println(name)
+	// fmt.Println(age)
+	fmt.Println(movie)
+
 }
