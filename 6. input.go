@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 /*
 让用户输入数据，完成项目交互
@@ -12,6 +16,9 @@ import "fmt"
         要求输入两个值，如果有了回车，就会结束，不会等待
 	fmt.Scanf
 		支持模版的方式输入
+
+无法解决的问题
+	输入的信息有空格
 */
 
 func Input() {
@@ -45,9 +52,19 @@ func Input() {
 		}
 	*/
 
-	var name string
-	var age int
-	fmt.Println("请输入")
-	_, _ = fmt.Scanf("我叫%s 今年%d 岁", &name, &age)
-	fmt.Println(name, age)
+	//var name string
+	//var age int
+	//fmt.Println("请输入")
+	//_, _ = fmt.Scanf("我叫%s 今年%d 岁", &name, &age)
+	// fmt.Println(name, age)
+
+	reader := bufio.NewReader(os.Stdin)
+	// line,从stdin中读取一行数据（字节集合 -> 转化为字符串）
+	// 默认一次能读取4096个字节(1032个汉字)
+	// 1.一次性读完， isPrefix= false
+	// 2.先读一部分， isPrefix = true, 再去赋去isPrefix = false
+	line, _, _ := reader.ReadLine()
+	data := string(line)
+	fmt.Println(data)
+
 }
