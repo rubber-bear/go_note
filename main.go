@@ -16,5 +16,8 @@ func main() {
 	// Input()
 	// Condition()
 	// SwitchCase()
-	Loop()
+	// Loop()
+	// StringFormat()
+
+	Operator()
 }
