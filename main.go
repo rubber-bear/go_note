@@ -13,5 +13,8 @@ func main() {
 	// DataType()
 	// Variable()
 	// Constant()
-	Input()
+	// Input()
+	// Condition()
+	// SwitchCase()
+	Loop()
 }
