@@ -19,5 +19,6 @@ func main() {
 	// Loop()
 	// StringFormat()
 
-	Operator()
+	// Operator()
+	Integer()
 }
