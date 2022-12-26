@@ -22,5 +22,5 @@ func main() {
 	// Operator()
 	// Integer()
 	// BaseConversion()
-	MathOperation()
+	BigInt()
 }
