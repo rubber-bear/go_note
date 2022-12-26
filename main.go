@@ -20,5 +20,6 @@ func main() {
 	// StringFormat()
 
 	// Operator()
-	Integer()
+	// Integer()
+	BaseConversion()
 }
