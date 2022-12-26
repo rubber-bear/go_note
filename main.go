@@ -21,5 +21,6 @@ func main() {
 
 	// Operator()
 	// Integer()
-	BaseConversion()
+	// BaseConversion()
+	MathOperation()
 }
