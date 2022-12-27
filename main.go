@@ -22,5 +22,6 @@ func main() {
 	// Operator()
 	// Integer()
 	// BaseConversion()
-	BigInt()
+	// BigInt()
+	FloatTest()
 }
