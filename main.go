@@ -23,5 +23,7 @@ func main() {
 	// Integer()
 	// BaseConversion()
 	// BigInt()
-	FloatTest()
+	// FloatTest()
+	// Bool()
+	StringTest()
 }
