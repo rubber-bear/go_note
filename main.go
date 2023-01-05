@@ -27,5 +27,8 @@ func main() {
 	// Bool()
 	// StringTest()
 	// StringFunc()
-	StringLoop()
+	// StringLoop()
+	// ArrayDetail()
+	// ArrayMemory()
+	ArrayFunc()
 }
