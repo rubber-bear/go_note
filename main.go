@@ -31,5 +31,7 @@ func main() {
 	// ArrayDetail()
 	// ArrayMemory()
 	// ArrayFunc()
-	ArrayNest()
+	// ArrayNest()
+	// SliceFunc()
+	SliceUse()
 }
