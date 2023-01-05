@@ -30,5 +30,6 @@ func main() {
 	// StringLoop()
 	// ArrayDetail()
 	// ArrayMemory()
-	ArrayFunc()
+	// ArrayFunc()
+	ArrayNest()
 }
