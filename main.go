@@ -25,5 +25,7 @@ func main() {
 	// BigInt()
 	// FloatTest()
 	// Bool()
-	StringTest()
+	// StringTest()
+	// StringFunc()
+	StringLoop()
 }
