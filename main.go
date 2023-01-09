@@ -34,5 +34,6 @@ func main() {
 	// ArrayNest()
 	// SliceFunc()
 	// SliceUse()
-	SliceNest()
+	// SliceNest()
+	SliceTest()
 }
