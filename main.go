@@ -37,5 +37,6 @@ func main() {
 	// SliceNest()
 	//SliceTest()
 	// MapInit()
-	MapFunc()
+	// MapFunc()
+	PointerDetail()
 }
