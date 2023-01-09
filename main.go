@@ -35,5 +35,7 @@ func main() {
 	// SliceFunc()
 	// SliceUse()
 	// SliceNest()
-	SliceTest()
+	//SliceTest()
+	// MapInit()
+	MapFunc()
 }
