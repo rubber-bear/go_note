@@ -40,6 +40,8 @@ func main() {
 	// MapFunc()
 	//PointerDetail()
 
-	structFunc()
-	StructUse()
+	// structFunc()
+	// StructUse()
+	// StructPointer()
+	structCopy()
 }
