@@ -43,5 +43,6 @@ func main() {
 	// structFunc()
 	// StructUse()
 	// StructPointer()
-	structCopy()
+	// structCopy()
+	StructNest()
 }
