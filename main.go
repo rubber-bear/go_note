@@ -38,5 +38,8 @@ func main() {
 	//SliceTest()
 	// MapInit()
 	// MapFunc()
-	PointerDetail()
+	//PointerDetail()
+
+	structFunc()
+	StructUse()
 }
