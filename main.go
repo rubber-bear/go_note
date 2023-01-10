@@ -44,5 +44,10 @@ func main() {
 	// StructUse()
 	// StructPointer()
 	// structCopy()
-	StructNest()
+	//StructNest()
+	// StructLabel()
+	//FuncTest()
+	// FuncUse()
+	// FuncPackage()
+	FuncLate()
 }
