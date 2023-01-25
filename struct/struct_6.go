@@ -25,7 +25,7 @@ type Person5 struct {
 	Address4
 }
 
-func StructNest() {
+func main() {
 	a1 := Person4{name: "xx", age: 100, Address4: Address4{"tj", "zg"}}
 	a2 := a1 // 嵌套的结构体会拷贝一份
 	fmt.Println(a1.Address4, a2.Address4)

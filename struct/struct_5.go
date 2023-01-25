@@ -7,7 +7,7 @@ type Man struct {
 	age  int
 }
 
-func structCopy() {
+func main() {
 
 	/*
 		 			-------------

@@ -39,17 +39,4 @@ func main() {
 	// MapInit()
 	// MapFunc()
 	//PointerDetail()
-
-	// structFunc()
-	// StructUse()
-	// StructPointer()
-	// structCopy()
-	// StructNest()
-	// StructLabel()
-	// FuncTest()
-	// FuncUse()
-	// FuncPackage()
-	// FuncLate()
-	// StructBack()
-	StructType()
 }

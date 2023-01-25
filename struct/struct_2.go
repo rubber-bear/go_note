@@ -12,7 +12,7 @@ type Person2 struct {
 	address Address
 }
 
-func StructUse() {
+func main() {
 	// 方式一：先后顺序
 	var s1 = Person2{"hanYang", 30, Address{"beijing", "china"}}
 	fmt.Println(s1)

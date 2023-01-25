@@ -6,7 +6,7 @@ import (
 	"unsafe"
 )
 
-func PointerDetail() {
+func main() {
 	// 1. 指针是一种数据类型, 用来表示数据的内存地址
 
 	var v1 *string

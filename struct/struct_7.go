@@ -11,7 +11,7 @@ type Person6 struct {
 	hobby []string "爱好"
 }
 
-func StructLabel() {
+func main() {
 	// 方式一: 先后顺序
 	var p1 = Person6{"hany", 30, []string{"chi", "lc"}}
 	fmt.Println(p1, p1.name, p1.age, p1.hobby)

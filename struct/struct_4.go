@@ -7,7 +7,7 @@ type people struct {
 	age  int
 }
 
-func StructPointer() {
+func main() {
 	// 初始化结构体 - 创建一个结构体对象
 	p := people{"xll", 29}
 	fmt.Println(p.name, p.age)
