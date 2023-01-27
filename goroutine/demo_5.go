@@ -6,12 +6,20 @@ import (
 )
 
 // 解决多个协程操作同一份数据
-// 解决机制：确保：一个协程在执行逻辑时候另外的协程不执行
-// 锁的机制 -》 加入互斥锁
 /*
-	type Mutex
-		func (m * Mutex) Lock()
-		func (m * Mutex) UnLock
+	解决机制：确保：一个协程在执行逻辑时候另外的协程不执行
+	锁的机制 -》 加入互斥锁, Mutex为互斥锁，lock() 加锁， Unlock()解锁
+	使用Lock() 加锁后，便不能再次对其进行加锁，知道利用Unlock()解锁后才能再次加锁
+	适用于读写不确定的场景，即读写次数没有明显的区别
+
+--- 性能、效率相对来说比较低
+*/
+
+/*
+type Mutex
+
+	func (m * Mutex) Lock()
+	func (m * Mutex) UnLock
 */
 var lock sync.Mutex
 
